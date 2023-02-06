@@ -155,10 +155,6 @@ p {
 .section {
   padding: 5rem 0;
 }
-#btn:active{
-  background-color: #c59d5f;
-
-}
 main {
   min-height: 100vh;
   display: grid;
@@ -205,6 +201,10 @@ Menu
 .filter-btn:hover {
   background: var(--clr-gold);
   color: var(--clr-white);
+}
+.active {
+  background-color: var(--clr-gold);
+  color: var(--clr-black);
 }
 .section-center {
   width: 90vw;
