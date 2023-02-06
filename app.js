@@ -87,9 +87,9 @@ const sectionCenter = document.querySelector(".section-center");
 //target the btn container as this would be where we are displaying the buttons
 const btnCategoryMenu = document.querySelector(".btn-container");
 let activeBtn = document.getElementById('btn')
-activeBtn.addEventListener('click', function(){
-  activeBtn.style.active.backgroundColor='#c59d5f'
-})
+// activeBtn.addEventListener('click', function(){
+//   activeBtn.style.active.backgroundColor='#c59d5f'
+// })
 //pass in the menu array as an argument into the displayMenu function
 window.addEventListener("DOMContentLoaded", function () {
   displayMenu(menu);
