@@ -155,7 +155,10 @@ p {
 .section {
   padding: 5rem 0;
 }
+#btn:active{
+  background-color: #c59d5f;
 
+}
 main {
   min-height: 100vh;
   display: grid;
